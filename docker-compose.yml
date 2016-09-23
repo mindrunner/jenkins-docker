@@ -6,7 +6,7 @@ services:
     volumes:
       - /mnt/data/jenkins:/var/jenkins_home
     environment:
-      APP_URL=${APP_URL}
+      APP_URL: ${APP_URL}
     ports:
       - "8055:8080"
       - "50000:50000"
